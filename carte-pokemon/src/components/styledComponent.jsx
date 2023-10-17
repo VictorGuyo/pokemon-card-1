@@ -9,7 +9,7 @@ const Container = styled.div`
 `;
 
 
-const StyledComponent = ({name, description, attackOne, strengthOne, attackTwo, strengthTwo, lifePoints, pokeImg }) => (
+const StyledComponent = ({name, description, lifePoints ,attackOne, strengthOne, attackTwo, strengthTwo, pokeImg }) => (
     <Container className="pokemon-card">
       <h1 className="salameche base-pokemon">
       {name}
